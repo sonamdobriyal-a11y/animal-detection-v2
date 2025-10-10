@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "buffaloes"
+    },
+    {
+      "id": 1,
+      "name": "deers"
+    },
+    {
+      "id": 2,
+      "name": "elephants"
+    },
+    {
+      "id": 3,
+      "name": "rhinos"
+    },
+    {
+      "id": 4,
+      "name": "tigers"
+    },
+    {
+      "id": 5,
+      "name": "wild boars"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

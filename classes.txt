@@ -1,0 +1,6 @@
+buffaloes
+deers
+elephants
+rhinos
+tigers
+wild boars
