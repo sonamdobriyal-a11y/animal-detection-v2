@@ -4,29 +4,6 @@ YOLO-based real-time wildlife detection system
 Detects six animal species—buffaloes, deer, elephants, rhinos, tigers, wild boars—from images or live camera feeds.
 Includes dataset preparation tools, YOLO training scripts, and live inference with audio alerts.
 
-Repository Structure
-Animal Detection V2/
-├── images/                     # Source images (flat directory)
-├── labels/                     # Corresponding YOLO label files
-├── classes.txt                 # Class names
-├── notes.json                  # Dataset metadata (Label Studio)
-│
-├── datasets/animals/           # Automatically generated dataset split
-│   ├── train/images
-│   ├── train/labels
-│   ├── val/images
-│   ├── val/labels
-│   └── test/images
-│
-├── runs/animals/               # YOLO training outputs
-│   └── yolov8n-animals*/       # Each run: weights, logs, metrics
-│
-├── animals.yaml                # Ultralytics dataset config
-├── prepare_dataset.py          # Script to split/prepare dataset
-├── train_yolo.py               # Training wrapper script
-├── detect_and_alert.py         # Live detection + audio alert
-└── requirements.txt            # Dependencies
-
 Setup
 Create and Activate a Python Environment
 python -m venv .venv
